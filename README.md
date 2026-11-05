@@ -69,7 +69,7 @@ foundation behind everything else in this portfolio.
 The exercises behind the foundation — Python basics, OOP, Shell/CLI,
 Pandas, ML fundamentals — live in a single archive repository:
 
-→ **[learning-exercises](https://github.com/pixy-kler/learning-exercises)** — DSB1–DSB7, ml1, ml2, ml4** — DSB1–DSB7, ml1, ml2, ml4
+→ **[learning-exercises](https://github.com/pixy-kler/learning-exercises) — DSB1–DSB7, ml1, ml2, ml4**
 
 ---
 
