@@ -51,7 +51,7 @@ foundation behind everything else in this portfolio.
 | Project | Type | What it's about | Stack |
 | :--- | :--- | :--- | :--- |
 | **[DSB8 — A/B Test of the Newsfeed (SQL)](https://github.com/pixy-kler/dsb8-sql-ab-test)** | 🎓 DS Intensive, Module 8 | Product hypothesis → SQL → datamart → A/B test on real platform data | sqlite3, pandas, SQL |
-| **[DSB12 — Nutritionist: from Notebook to CLI](./dsb12-nutritionist)** | 🎓 DS Intensive, Module 12 | Notebook → module → CLI + external nutrition API + bonus daily-menu generator | scikit-learn, `requests`, OOP |
+| **[DSB12 — Nutritionist: from Notebook to CLI](https://github.com/pixy-kler/dsb12-nutritionist-cli)** | 🎓 DS Intensive, Module 12 | Notebook → module → CLI + external nutrition API + bonus daily-menu generator | scikit-learn, `requests`, OOP |
 | **[ml5-trees-gbdt — Decision Trees and GBDT from Scratch](https://github.com/pixy-kler/ml5-trees-gbdt)** | 🎓 ML Course, Module 5 | `Node`, `DecisionTree`, `RandomForest`, `GBDT` on NumPy + comparison with LightGBM, CatBoost, XGBoost | NumPy, scikit-learn, LightGBM, CatBoost, XGBoost |
 
 ### Second Tier
