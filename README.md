@@ -24,11 +24,26 @@ sensitive material.
 
 ## 🧪 Pet Projects
 
-*In progress — coming soon.*
+### [Sber Events Parser](https://github.com/pixy-kler/sber-events-parser)
 
-**Planned format:** motivation → problem → data → approach → results →
-what I learned. Pet projects are where I explore ideas I find personally
-interesting, outside any curriculum.
+**Motivation:** As an aspiring Data Scientist, I wanted to attend hackathons and meetups to build my network and gain practical experience. Manually checking the Sber events page was tedious, and their email newsletters were often too generic.
+
+**Problem:** Build an automated system to monitor the website, filter events by personal relevance (AI/ML, online, hackathons), and send notifications only when new, suitable events appear.
+
+**Data:** HTML page with embedded `__NEXT_DATA__` JSON (Next.js), containing 152 `EventPage` objects with dates, tags, and locations.
+
+**Approach:** 
+1. **Recon:** Avoided heavy browser automation (Selenium/Playwright) by extracting the raw JSON directly from the `<script id="__NEXT_DATA__">` tag.
+2. **Parsing:** Normalized dates, extracted cities from the location strings, and classified events (online/offline) using heuristics.
+3. **Scoring & Filtering:** Developed a weighted scoring system (e.g., +5 for Hackathons, +3 for AI/ML topics, -4 for "expert-only" meetups). Filtered out past events.
+4. **Delivery:** Generated custom HTML email cards and sent them via SMTP.
+5. **State Management:** Saved seen event `slugs` to a JSON file to prevent duplicate emails.
+
+**Results:** A fully automated local Python script (runs via Windows Task Scheduler) that delivers a curated list of relevant events directly to my inbox.
+
+**What I learned:** Deepened my understanding of web scraping beyond basic HTML parsing, practiced modular Python code design (separating parser, filtering, storage, and mailer), and gained experience with SMTP and environment variable security (`.env`).
+
+**Stack:** Python, `requests`, `smtplib`, `python-dotenv`
 
 ---
 
