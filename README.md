@@ -58,7 +58,7 @@ foundation behind everything else in this portfolio.
 
 | Project | Type | What it's about | Stack |
 | :--- | :--- | :--- | :--- |
-| **[DSB6 — MovieLens: Module + PyTest](./dsb6-movielens)** | 🎓 DS Intensive, Module 6 | 4 OOP classes, full PyTest suite, interactive Q&A report | OOP, PyTest, pandas |
+| **[DSB6 — MovieLens: Module + PyTest](https://github.com/pixy-kler/dsb6-movielens-analytic)** | 🎓 DSB, Module 6 | 4 OOP classes, full PyTest suite, interactive Q&A report | OOP, PyTest, pandas |
 | **[DSB9 — Data Visualization: 9 Chart Types](./dsb9-dataviz)** | 🎓 DS Intensive, Module 9 | Line, bar, histogram, boxplot, scatter matrix, heatmap, Seaborn, Plotly animation | Matplotlib, Seaborn, Plotly, sqlite3 |
 | **[DSB11 — Regularization, GridSearch, Ensembles, Pipelines](./dsb11-ml-toolkit)** | 🎓 DS Intensive, Module 11 | L1/L2, GridSearchCV, metrics (P/R/F1, ROC-AUC), Voting/Bagging/Stacking, OOP + `Pipeline` | scikit-learn, pandas |
 | **[ml3 — Validation and Feature Selection](./ml3-validation-feature-selection)** | 🎓 ML Course, Module 3 | Custom CV schemes, Lasso, permutation importance, SHAP, Grid/Random/Optuna | scikit-learn, SHAP, Optuna |
